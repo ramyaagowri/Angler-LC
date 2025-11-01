@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "product_name": "T-Shirt",
+      "sku": "TS001",
+      "price": 20,
+      "description": "Cotton t-shirt",
+      "brand": "Brand A"
+    },
+    {
+      "id": "2",
+      "product_name": "Shoes",
+      "sku": "SH002",
+      "price": 50,
+      "description": "Running shoes",
+      "brand": "Brand B"
+    },
+    {
+      "id": "3",
+      "product_name": "Cap",
+      "sku": "CP003",
+      "price": 15,
+      "description": "Stylish cap",
+      "brand": "Brand C"
+    },
+    {
+      "id": "4",
+      "product_name": "Shoes",
+      "sku": "SH002",
+      "price": 50,
+      "description": "Running shoes",
+      "brand": "Brand B"
+    },
+    {
+      "id": "5",
+      "product_name": "Shoes",
+      "sku": "SH002",
+      "price": 50,
+      "description": "Running shoes",
+      "brand": "Brand B"
+    },
+    {
+      "id": "6",
+      "product_name": "Shoes",
+      "sku": "SH002",
+      "price": 50,
+      "description": "Running shoes",
+      "brand": "Brand B"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "3651",
+      "name": "Ramyaa gowri K",
+      "email": "ramyaagowrik@gmail.com",
+      "phone": "8903444278",
+      "subject": "Regarding Project ",
+      "message": "When shall we connect"
+    },
+    {
+      "id": "df7d",
+      "name": "Ramyaa gowri K",
+      "email": "ramyaagowrik@gmail.com",
+      "phone": "8903444278",
+      "subject": "Regarding Project ",
+      "message": "When shall we connect"
+    },
+    {
+      "id": "b21e",
+      "name": "Ramyaa gowri K",
+      "email": "ramyaagowrik@gmail.com",
+      "phone": "",
+      "subject": "Regarding Project ",
+      "message": "Hey"
+    },
+    {
+      "id": "d6fc",
+      "name": "Ramyaa gowri K",
+      "email": "ramyaagowrik@gmail.com",
+      "phone": "578282632",
+      "subject": "Regarding Project ",
+      "message": "when shall we connect "
+    }
+  ]
+}
