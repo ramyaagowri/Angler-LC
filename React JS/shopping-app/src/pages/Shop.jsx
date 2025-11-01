@@ -1,9 +1,8 @@
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../features/cart/cartSlice";
-import { Card, Button, Row, Col, Pagination } from "react-bootstrap";
+import { Card, Button, Row, Col, Pagination, Alert } from "react-bootstrap";
 
 export default function Shop() {
   const [products, setProducts] = useState([]);
@@ -22,6 +21,7 @@ export default function Shop() {
   const indexOfLast = currentPage * productsPerPage;
   const indexOfFirst = indexOfLast - productsPerPage;
   const currentProducts = products.slice(indexOfFirst, indexOfLast);
+
   const totalPages = Math.ceil(products.length / productsPerPage);
 
   return (
